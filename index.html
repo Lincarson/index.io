@@ -14,7 +14,9 @@
                 <p class="solid" id="ans">0</p>
             </div>
 
-            <div class="theBtns">
+            <div class="theBtns"><div style="text-align:center;background-color:#FFAC55;width:500px;height:50px;">
+　<div style="background-color:#FFAFFE;width:300px;height:20px;margin:0 auto;"></div>
+
                 <div>
                     <button id="AC" onclick="AC()">AC</button>
                     <button id="del" onclick="Del()">del</button>
@@ -44,40 +46,7 @@
                     <button id="equal" onclick="Equal()">=</button>
                 </div>
             </div>
-            <div class="theOptionsBtn">
-                <div>
-                    <button class="other1" onclick="Pow()">x^y</button>
-                    <button class="other1" onclick="Trigonometric('sin')">sinX</button>
-                    <button class="other1" onclick="Trigonometric('tan')">tanX</button>
-                    <button class="other1" onclick="Trigonometric('sec')">secX</button>
-                </div>
-                <div>
-                    <button class="other1" onclick="OP('(')">(</button>
-                    <button class="other1" onclick="Trigonometric('cos')">cosX</button>
-                    <button class="other1" onclick="Trigonometric('cot')">cotX</button>
-                    <button class="other1" onclick="Trigonometric('csc')">cscX</button>
-                </div>
-                <div>
-                    <button class="other1" onclick="OP(')')">)</button>
-                    <button class="other1" onclick="">@</button>
-                    <button class="other1" onclick="">@</button>
-                    <button class="other1" onclick="">@</button>
-                </div>
-                <div>
-                    <button class="other1" onclick="Radical(2)">√</button>
-                    <button class="other1" onclick="">@</button>
-                    <button class="other1" onclick="">@</button>
-                    <button class="other1" onclick="">@</button>
-                </div>
-                <div>
-                    <button class="other1" onclick="Radical(3)">3√</button>
-                    <button class="other1" onclick="">@</button>
-                    <button class="other1" onclick="">@</button>
-                    <button class="other1" onclick="">@</button>
-                </div>
-            </div>
-            <p id="ps">@ : New option in future!</p>
-        </div>
+ </div>
     </body>
 
     <script>
@@ -266,7 +235,7 @@
 
     <style>
         body {
-            background-color: skyblue;
+            background-color: white;
             align-items: center;
         }
         
@@ -278,7 +247,7 @@
             border-style: solid;
             border-radius: 5px;
             background-color: white;
-            text-align: right;
+            text-align:center;
         }
 
         #AC {
@@ -287,7 +256,7 @@
         }
 
         #AC:active {
-            background-color: pink;
+            background-color: white;
         }
 
         .space {
@@ -325,25 +294,25 @@
 
         .theBtns {
             width: 250px;
-            margin-left: 20px;
+            margin-center: 20px;
             ;
             text-align: center;
             font-size: 10px;
-            float: left;
+            float: center;
         }
 
         .theOptionsBtn {
             width: 250px;
-            margin-right: 20px;
+            margin-center: 20px;
             ;
             text-align: center;
             font-size: 10px;
-            float: right;
+            float: center;
         }
 
         #equal {
             width: 124px;
-            background-color: greenyellow;
+            background-color: yellow;
         }
 
         #equal:active {
@@ -367,7 +336,7 @@
         }
 
         #del {
-            background-color: hotpink;
+            background-color: white;
         }
 
         #del:active {
